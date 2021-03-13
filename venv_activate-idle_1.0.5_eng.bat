@@ -23,11 +23,11 @@ REM OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN TH
 REM SOFTWARE.
 
 echo Please specify the name of the virtual enviroment that you would like to activate:
-cd C:\Users\Julian Fechner\pyproj
+cd "C:\Users\Julian Fechner\pyproj"
 dir
 set /p venv=
 call "C:\Users\Julian Fechner\pyproj\%venv%\Scripts\activate.bat"
-cd C:\Users\Julian Fechner\pyproj\%venv%
+cd "C:\Users\Julian Fechner\pyproj\%venv%"
 echo pip install --upgrade pip
 echo pip install -r requirements.txt
 python -m idlelib.idle
