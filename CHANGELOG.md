@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Languages: English
 
+## [1.0.5] - 2021-03-13
+
+- Added code for checking the directory, that has the virtual environments inside.
+
 ## [1.0.4] - 2021-03-09
 
 - Fixed typing error.
